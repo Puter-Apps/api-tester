@@ -31,21 +31,9 @@ and open the `/src/index.html` file in your browser.
 
 ## How It Works
 
-1. Select your HTTP method (GET, POST, PUT, etc.)
-2. Enter the API endpoint URL you want to test
-3. Add custom headers if needed (Accept, Authorization, etc.)
-4. For POST/PUT/PATCH requests, add your request body in JSON or text format
-5. Click "Send Request" to execute the API call
-6. View the formatted response with status code and response time
+This API Tester leverages **Puter.js** to overcome the fundamental challenge of cross-origin requests in web browsers. Traditional web applications are restricted by CORS (Cross-Origin Resource Sharing) policies, which prevent direct API calls to external domains from browser-based JavaScript.
 
-## Technical Details
-
-This application uses:
-- **Puter.js** for making cross-origin HTTP requests and bypassing CORS restrictions
-- **Vanilla JavaScript** for the frontend logic and API interactions
-- **Modern CSS** with responsive design principles and gradient styling
-- **JSON Syntax Highlighting** for better response readability
-- **Real-time Response Metrics** showing status codes and timing
+Specifically, the application uses [`puter.net.fetch()`](https://docs.puter.com/Networking/fetch/) to make cross-origin HTTP requests and bypass CORS restrictions. This allows the app to test any public API endpoint without server-side configuration.
 
 ## Puter.js Features Used
 
