@@ -27,7 +27,7 @@ Clone the repository:
 git clone https://github.com/puter-apps/api-tester.git
 ```
 
-and open the `index.html` file in your browser.
+and open the `/src/index.html` file in your browser.
 
 ## How It Works
 
