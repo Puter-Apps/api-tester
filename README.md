@@ -35,16 +35,6 @@ This API Tester leverages **Puter.js** to overcome the fundamental challenge of 
 
 Specifically, the application uses [`puter.net.fetch()`](https://docs.puter.com/Networking/fetch/) to make cross-origin HTTP requests and bypass CORS restrictions. This allows the app to test any public API endpoint without server-side configuration.
 
-## Puter.js Features Used
-
-- **Networking**: Making HTTP requests to external APIs using `puter.net.fetch()`
-
-## Example APIs to Test
-
-- **HTTPBin**: https://httpbin.org/get (for testing GET requests)
-- **JSONPlaceholder**: https://jsonplaceholder.typicode.com/posts (for testing REST APIs)
-- **Public APIs**: Any publicly accessible REST API endpoint
-
 ## License
 
 MIT
