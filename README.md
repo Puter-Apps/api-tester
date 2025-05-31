@@ -9,6 +9,8 @@
   <img src="screenshot.png" alt="Screenshot" width="600" />
 </p>
 
+<br>
+
 ## Features
 
 - **Multiple HTTP Methods**: Support for GET, POST, PUT, DELETE, PATCH, HEAD, and OPTIONS requests
@@ -18,6 +20,8 @@
 - **Response Metrics**: See response status codes, status text, and response times
 - **Modern UI**: Clean, responsive interface that works on all devices
 - **No Installation Required**: Runs directly in your browser
+
+<br>
 
 ## Getting Started
 
@@ -29,11 +33,15 @@ git clone https://github.com/puter-apps/api-tester.git
 
 and open the `/src/index.html` file in your browser.
 
+<br>
+
 ## How It Works
 
 This API Tester leverages **Puter.js** to overcome the fundamental challenge of cross-origin requests in web browsers. Traditional web applications are restricted by CORS (Cross-Origin Resource Sharing) policies, which prevent direct API calls to external domains from browser-based JavaScript.
 
 Specifically, the application uses [`puter.net.fetch()`](https://docs.puter.com/Networking/fetch/) to make cross-origin HTTP requests and bypass CORS restrictions. This allows the app to test any public API endpoint without server-side configuration.
+
+<br>
 
 ## License
 
