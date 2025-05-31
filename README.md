@@ -47,7 +47,7 @@ This application uses:
 - **JSON Syntax Highlighting** for better response readability
 - **Real-time Response Metrics** showing status codes and timing
 
-## Puter SDK Features Used
+## Puter.js Features Used
 
 - **Networking**: Making HTTP requests to external APIs using `puter.net.fetch()`
 
