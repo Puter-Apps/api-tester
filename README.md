@@ -37,7 +37,7 @@ and open the `/src/index.html` file in your browser.
 
 ## How It Works
 
-This API Tester leverages **Puter.js** to overcome the fundamental challenge of cross-origin requests in web browsers. Traditional web applications are restricted by CORS (Cross-Origin Resource Sharing) policies, which prevent direct API calls to external domains from browser-based JavaScript.
+API Tester leverages [**Puter.js**](https://developer.puter.com/) to overcome the fundamental challenge of cross-origin requests in web browsers. Traditional web applications are restricted by CORS (Cross-Origin Resource Sharing) policies, which prevent direct API calls to external domains from browser-based JavaScript.
 
 Specifically, the application uses [`puter.net.fetch()`](https://docs.puter.com/Networking/fetch/) to make cross-origin HTTP requests and bypass CORS restrictions. This allows the app to test any public API endpoint without server-side configuration.
 
