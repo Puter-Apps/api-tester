@@ -19,6 +19,16 @@
 - **Modern UI**: Clean, responsive interface that works on all devices
 - **No Installation Required**: Runs directly in your browser
 
+## Getting Started
+
+Clone the repository: 
+
+```bash
+git clone https://github.com/puter-apps/api-tester.git
+```
+
+and open the `index.html` file in your browser.
+
 ## How It Works
 
 1. Select your HTTP method (GET, POST, PUT, etc.)
@@ -40,16 +50,6 @@ This application uses:
 ## Puter SDK Features Used
 
 - **Networking**: Making HTTP requests to external APIs using `puter.net.fetch()`
-
-## Getting Started
-
-Clone the repository: 
-
-```bash
-git clone https://github.com/puter-apps/api-tester.git
-```
-
-and open the `index.html` file in your browser.
 
 ## Example APIs to Test
 
